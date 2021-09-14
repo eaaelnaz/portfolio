@@ -6,9 +6,18 @@ import { links } from "../utils/constant";
 
 const Navbar = (props) => {
   const [showMenu, setShowMenu] = useState(false);
+  const [hoverMenu, setHoverMenu] = useState(false);
 
   const handleClick = () => {
     setShowMenu(!showMenu);
+  };
+
+  const handleOnMouse = (e) => {
+    const txt = e.target.textContent;
+    if (txt) {
+      setHoverMenu(!hoverMenu);
+    }
+    console.log(hoverMenu);
   };
 
   return (
@@ -33,9 +42,13 @@ const Navbar = (props) => {
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            {links.map((link) => {
+            {links.map((link, index) => {
               return (
-                <li className="nav-item" key={link.id}>
+                <li
+                  className="nav-item"
+                  key={index}
+                  onMouseOver={handleOnMouse}
+                >
                   <Link className="nav-link" to={link.url}>
                     {link.text}
                   </Link>
