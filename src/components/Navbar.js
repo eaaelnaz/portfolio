@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../image/logo.png";
+import logo from "../image/logo01.png";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { links } from "../utils/constant";
@@ -65,7 +65,7 @@ const Navbar = (props) => {
 const Wrapper = styled.nav`
   background-color: #f3f3f3 !important;
   .navbar-brand img {
-    max-width: 80px;
+    max-width: 100px;
   }
 `;
 
