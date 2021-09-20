@@ -1,6 +1,7 @@
 import React from "react";
 import Particles from "react-particles-js";
 import AboutUs from "../components/AboutUs";
+import Exprience from "../components/Exprience";
 import Header from "../components/Header";
 import Services from "../components/Services";
 
@@ -11,6 +12,7 @@ const HomePage = (props) => {
       <Header />
       <AboutUs />
       <Services />
+      <Exprience />
     </>
   );
 };
