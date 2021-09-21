@@ -3,6 +3,7 @@ import Particles from "react-particles-js";
 import AboutUs from "../components/AboutUs";
 import Exprience from "../components/Exprience";
 import Header from "../components/Header";
+import PopupBox from "../components/PopupBox";
 import Services from "../components/Services";
 
 const HomePage = (props) => {
@@ -13,6 +14,7 @@ const HomePage = (props) => {
       <AboutUs />
       <Services />
       <Exprience />
+      <PopupBox />
     </>
   );
 };
