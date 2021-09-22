@@ -8,6 +8,11 @@ import {
   GiBoombox,
 } from "react-icons/gi";
 
+import img5 from "../image/05.jpg";
+import img6 from "../image/06.jpg";
+import img7 from "../image/07.jpg";
+import img8 from "../image/08.jpg";
+
 export const links = [
   {
     id: 1,
@@ -93,3 +98,36 @@ export const experience = [
     text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi",
   },
 ];
+
+const items = [
+  {
+    id: 0,
+    name: "john doe",
+    job: "the boss",
+    image: `${img5}`,
+    text: "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
+  },
+  {
+    id: 1,
+    name: "peter joe",
+    job: "web designer",
+    image: `${img6}`,
+    text: "Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.",
+  },
+  {
+    id: 2,
+    name: "jane doe",
+    job: "intern",
+    image: `${img7}`,
+    text: "Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.",
+  },
+  {
+    id: 3,
+    name: "elnaz doe",
+    job: "web developer",
+    image: `${img8}`,
+    text: "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ",
+  },
+];
+
+export default items;
