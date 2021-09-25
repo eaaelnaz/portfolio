@@ -1,11 +1,15 @@
 import React from "react";
-import Particles from "react-particles-js";
-import AboutUs from "../components/AboutUs";
-import OurClients from "../components/Clients";
-import Exprience from "../components/Exprience";
-import Header from "../components/Header";
-import PopupBox from "../components/PopupBox";
-import Services from "../components/Services";
+import {
+  Particles,
+  AboutUs,
+  OurClients,
+  ContactUs,
+  Exprience,
+  Header,
+  PopupBox,
+  Services,
+  Footer,
+} from "../components/index";
 
 const HomePage = (props) => {
   return (
@@ -17,6 +21,8 @@ const HomePage = (props) => {
       <Exprience />
       <PopupBox />
       <OurClients />
+      <ContactUs />
+      <Footer />
     </>
   );
 };

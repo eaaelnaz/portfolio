@@ -131,3 +131,10 @@ const items = [
 ];
 
 export default items;
+
+export const footerLinks = [
+  { id: 0, ulr: "/", name: "Link #1" },
+  { id: 1, ulr: "/", name: "Link #2" },
+  { id: 2, ulr: "/", name: "Link #3" },
+  { id: 3, ulr: "/", name: "Link #4" },
+];
