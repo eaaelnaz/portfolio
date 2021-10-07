@@ -9,7 +9,7 @@ const App = (props) => {
     <BrowserRouter>
       <Navbar />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/portfolio-react-bootstrap">
           <HomePage />
         </Route>
       </Switch>
